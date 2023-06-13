@@ -1,0 +1,55 @@
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin:0%;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background:rgb(71, 211, 235);
+    background-image: url(https://t4.ftcdn.net/jpg/04/44/27/45/240_F_444274525_8xQDvpLeoC0jCCfm3K9pJ7CopasKNxOl.jpg);
+}
+.card{
+    border-radius: 20px;
+    padding:2em;
+    width: 50%;
+    background:rgba(105, 106, 106, 0.6);
+    margin: 10%;
+}
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    margin: 0.5em;
+    border-radius: 100%;
+    border:none;
+    height:35px;
+    width: 35px;
+    cursor:pointer;
+    transition:  1s ease-in-out;
+
+}
+.search-bar{
+    border: none;
+    padding: .5em;
+    border-radius: 18px;
+    background-color: rgb(157, 184, 194);
+    color:white;
+    font-size: 80%;
+    width: calc(50%);
+
+}
+.flex{
+    display: flex;
+    align-items: center;
+
+}
+.description{
+    text-transform: uppercase;
+    text-decoration: wavy;
+}
+.weather.loading{
+    visibility: hidden;
+}
